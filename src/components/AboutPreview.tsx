@@ -8,12 +8,12 @@ export function AboutPreview() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
             <img
-              src="images/TracyM.jpeg"
+              src="/images/TracyM.jpeg"
               alt="Dr. Tracy Mmako"
               className="rounded-lg shadow-lg w-full h-full object-cover"
             />
             <video
-              src="images/DrMmako.mp4"
+              src="/images/DrMmako.mp4"
               autoPlay
               loop
               controls={true}
