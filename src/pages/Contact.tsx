@@ -22,7 +22,7 @@ export default function Contact() {
                 <div className="ml-4">
                   <h3 className="font-semibold">Phone Numbers</h3>
                   <p className="text-gray-600">Tel: +27 130 012 280</p>
-                  <p className="text-gray-600">Cell: +27 79 051 4886</p>
+                  <p className="text-gray-600">Cell: +27 63 013 4031</p>
                 </div>
               </div>
               <div className="flex items-start">
