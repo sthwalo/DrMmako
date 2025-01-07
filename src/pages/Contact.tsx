@@ -54,7 +54,7 @@ export default function Contact() {
           </div>
           {/* Emergency Information */}
           <div className="contact-section">
-            <a href="https://wa.me/27790514886?text=I'm%20interested%20in%20booking%20an%20appointment%20and%20need%20more%20information%20about%20the%20services." 
+            <a href="https://wa.me/27630134031?text=I'm%20interested%20in%20booking%20an%20appointment%20and%20need%20more%20information%20about%20the%20services." 
               className="inline-flex items-center justify-center px-6 py-3 bg-[#25D366] text-white rounded-md hover:bg-[#1da851] transition-colors"
               target="_blank" 
               rel="noopener noreferrer">
