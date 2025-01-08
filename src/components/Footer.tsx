@@ -6,7 +6,7 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <p className="mb-2">Tel: +27 130 012 280</p>
-            <p className="mb-2">Cell: +27 79 051 4886</p>
+            <p className="mb-2">Cell: +27 630 134031</p>
             <p className="mb-2">Email: info@drmmako.co.za</p>
           </div>
           <div>
