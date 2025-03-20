@@ -41,6 +41,7 @@ export function Navbar() {
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-gray-700 hover:text-[#00A86B] transition-colors">Home</Link>
             <Link to="/about" className="text-gray-700 hover:text-[#00A86B] transition-colors">About</Link>
+            <Link to="/foundation" className="text-gray-700 hover:text-[#00A86B] transition-colors">Foundation</Link>
             <Link to="/services" className="text-gray-700 hover:text-[#00A86B] transition-colors">Services</Link>
             <Link to="/contact" className="bg-[#00A86B] text-white px-4 py-2 rounded-md hover:bg-[#008f5a] transition-colors">
               Contact
@@ -78,8 +79,9 @@ export function Navbar() {
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white">
             <Link to="/" className="block px-3 py-2 text-gray-700 hover:text-[#00A86B] transition-colors">Home</Link>
-            <Link to="/about" className="block px-3 py-2 text-gray-700 hover:text-[#00A86B] transition-colors">About</Link>
             <Link to="/services" className="block px-3 py-2 text-gray-700 hover:text-[#00A86B] transition-colors">Services</Link>
+            <Link to="/foundation" className="block px-3 py-2 text-gray-700 hover:text-[#00A86B] transition-colors">Foundation</Link>
+            <Link to="/about" className="block px-3 py-2 text-gray-700 hover:text-[#00A86B] transition-colors">About</Link>
             <Link to="/contact" className="block px-3 py-2 text-gray-700 hover:text-[#00A86B] transition-colors">Contact</Link>
           </div>
         </div>

@@ -18,14 +18,15 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="/about" className="hover:text-[#00A86B] transition-colors">About</a></li>
               <li><a href="/services" className="hover:text-[#00A86B] transition-colors">Services</a></li>
+              <li><a href="/foundation" className="hover:text-[#00A86B] transition-colors">Foundation</a></li>
+              <li><a href="/about" className="hover:text-[#00A86B] transition-colors">About</a></li>
               <li><a href="/contact" className="hover:text-[#00A86B] transition-colors">Contact</a></li>
             </ul>
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
-          <p>© {new Date().getFullYear()} Global Hope Consortium. All rights reserved.</p>
+          <p> {new Date().getFullYear()} Global Hope Consortium. All rights reserved.</p>
         </div>
       </div>
     </footer>
