@@ -49,7 +49,7 @@ export default function Foundation() {
                   </li>
                   <li className="flex items-start">
                     <Clock className="h-6 w-6 mr-2 flex-shrink-0" />
-                    <span>12:30 PM for 1:00 PM</span>
+                    <span>12:30 PM for 5:00 PM</span>
                   </li>
                   <li className="flex items-start">
                     <MapPin className="h-6 w-6 mr-2 flex-shrink-0" />
@@ -70,29 +70,15 @@ export default function Foundation() {
           </div>
         </div>
 
-        {/* Event Objectives */}
+        {/* Objectives */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-8">Event Objectives</h2>
+          <h2 className="text-3xl font-bold text-gray-900 text-center mb-8">Objectives</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {objectives.map((objective, index) => (
               <div key={index} className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow">
                 <div className="text-[#00A86B] mb-4">{objective.icon}</div>
                 <h3 className="text-xl font-semibold mb-2">{objective.title}</h3>
                 <p className="text-gray-600">{objective.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Event Agenda */}
-        <div className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 text-center mb-8">Event Agenda</h2>
-          <div className="space-y-6">
-            {agenda.map((item, index) => (
-              <div key={index} className="bg-white rounded-lg shadow p-6">
-                <h3 className="text-xl font-semibold text-[#00A86B] mb-2">{item.time}</h3>
-                <h4 className="text-lg font-medium mb-2">{item.title}</h4>
-                <p className="text-gray-600">{item.description}</p>
               </div>
             ))}
           </div>
@@ -147,34 +133,6 @@ const objectives = [
     icon: <Heart className="h-8 w-8" />,
     title: "Inspire Action",
     description: "Encourage attendees to support the cause and become advocates for Neurodiversity"
-  }
-];
-
-const agenda = [
-  {
-    time: "12:30 PM - 1:00 PM",
-    title: "Registration and Welcome Refreshments",
-    description: "Guests will be welcomed and provided with refreshments."
-  },
-  {
-    time: "1:00 PM - 2:30 PM",
-    title: "Screening of the Africa Moms Rising Movie",
-    description: "A documentary focusing on mothers advocating for their children's rights across Africa, showcasing resilience and the fight for inclusion."
-  },
-  {
-    time: "2:30 PM - 3:00 PM",
-    title: "Break",
-    description: "An opportunity for networking and discussion among attendees regarding the film's themes."
-  },
-  {
-    time: "3:00 PM - 4:30 PM",
-    title: "Official Launch Ceremony",
-    description: "Opening Remarks by Dr. Tracy Mmako-Mkhonza, Founder, followed by a keynote speech and panel discussion with experts and advocates discussing strategies for fostering inclusivity and support for Neurodiverse individuals."
-  },
-  {
-    time: "4:30 PM - 5:00 PM",
-    title: "Closing Remarks",
-    description: "Summary of the event, acknowledgment of contributions, and a call to action for community involvement."
   }
 ];
 

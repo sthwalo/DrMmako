@@ -8,7 +8,7 @@ export default function About() {
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">About Dr. Tracy Mmako</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            A dedicated neurologist committed to advancing neurological health through expertise and compassionate care.
+            A renowned neurologist and advocate with a passion for improving the lives of individuals with neurodiverse disorders.
           </p>
         </div>
 
@@ -22,23 +22,30 @@ export default function About() {
             />
           </div>
           <div>
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">Professional Background</h2>
+            <h2 className="text-3xl font-bold text-gray-900 text-center mb-6">Biography</h2>
             <div className="prose prose-lg text-gray-600">
               <p className="mb-4">
-                Dr. Tracy Mmako is a highly skilled neurologist based at Riverside Medical Center, 
-                dedicated to providing exceptional care for patients with neurological conditions.
+                Dr. Tracy Mmako is a renowned neurologist and advocate with a passion for improving the lives of individuals with neurodiverse disorders. Born and raised in Zebediela, Limpopo, Dr. Mmako pursued her academic excellence at Medical University of Southern Africa (Medunsa) where she earned a Bachelor of Science degree with majors in Psychology and Biology.
               </p>
               <p className="mb-4">
-                With extensive medical training and years of experience, Dr. Mmako has developed 
-                expertise in diagnosing and treating a wide range of neurological disorders.
+                Dr. Mmako's fascination with the human brain and its intricate functions led her to pursue a medical degree (MBChB) at The University of Limpopo. Following two years of internship at the Charlotte Maxeke Johannesburg Academic Hospital and one year of community service at FH Odendaal Hospital in Limpopo, she later specialized in Neurology, completing a Master's of Medicine in Neurology from the Sefako Makgatho Health Sciences University (SMU) and a Fellowship in Neurology from the Colleges of Medicine of South Africa (CMSA).
               </p>
               <p>
-                Her commitment to patient care and continuous learning ensures that she stays 
-                at the forefront of neurological medicine, providing the best possible care 
-                for her patients.
+                Throughout her career, Dr. Mmako has worked tirelessly to deliver exceptional patient care, advance the understanding and management of neurological disorders, and advocate for the rights and dignity of individuals with neurodiverse disorders. Her expertise and passion have made her a sought-after speaker, educator, and consultant.
               </p>
             </div>
           </div>
+        </div>
+
+        {/* Personal Section */}
+        <div className="bg-gray-50 rounded-xl p-8 mb-16">
+          <h2 className="text-3xl font-bold text-gray-900 text-center mb-6">Personal Life</h2>
+          <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
+            Dr. Mmako is a devoted wife, mother, daughter, and sister. Her personal experiences and relationships have deepened her understanding of the complexities and challenges faced by individuals and families affected by neurodiverse disorders.
+          </p>
+          <p className="text-gray-600 text-center font-medium text-lg max-w-3xl mx-auto">
+            She continues to inspire and empower individuals, families, and communities in her work through the Dr MT Mmako-Mkhonza Foundation.
+          </p>
         </div>
 
         {/* Values Section */}
@@ -104,19 +111,19 @@ const values = [
 
 const qualifications = [
   {
-    title: "Medical Degree",
-    description: "Graduated with honors from a prestigious medical institution"
+    title: "Bachelor of Science",
+    description: "Medical University of Southern Africa (Medunsa) with majors in Psychology and Biology"
   },
   {
-    title: "Neurology Residency",
-    description: "Completed specialized training in neurological disorders and treatments"
+    title: "Medical Degree (MBChB)",
+    description: "The University of Limpopo, followed by internship at Charlotte Maxeke Johannesburg Academic Hospital and community service at FH Odendaal Hospital"
   },
   {
-    title: "Board Certification",
-    description: "Licensed and certified neurologist with additional specializations"
+    title: "Master's of Medicine in Neurology",
+    description: "Sefako Makgatho Health Sciences University (SMU)"
   },
   {
-    title: "Continuing Education",
-    description: "Regular participation in medical conferences and research programs"
+    title: "Fellowship in Neurology",
+    description: "Colleges of Medicine of South Africa (CMSA)"
   }
 ];
