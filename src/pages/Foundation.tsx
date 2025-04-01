@@ -34,6 +34,33 @@ export default function Foundation() {
           </div>
         </div>
 
+        {/* Foundation Interview Video */}
+        <div className="mb-16">
+          <h2 className="text-3xl font-bold text-gray-900 text-center mb-8">Meet Our Founder</h2>
+          <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="aspect-w-16 aspect-h-9">
+              <iframe 
+                className="w-full h-full" 
+                src="/images/Foundation Interview.mp4" 
+                title="Dr. Mmako-Mkhonza Foundation Interview"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <div className="p-6">
+              <h3 className="text-xl font-bold mb-4">Dr. Tracy Mmako: The Vision Behind the Foundation</h3>
+              <p className="text-gray-600 mb-4">
+                In this exclusive interview, Dr. Tracy Mmako shares her personal journey and the inspiration behind establishing the Dr. Mmako-Mkhonza Foundation. 
+                Learn about her experiences as a neurologist and advocate, and how these have shaped her commitment to supporting individuals with neurodiverse disorders.
+              </p>
+              <p className="text-gray-600">
+                Dr. Mmako discusses the foundation's goals, upcoming initiatives, and her vision for creating a more inclusive society where neurodiversity is understood and celebrated.
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Upcoming Launch Event */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 text-center mb-8">Foundation Launch Event</h2>
