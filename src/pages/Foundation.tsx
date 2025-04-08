@@ -76,7 +76,7 @@ export default function Foundation() {
                   </li>
                   <li className="flex items-start">
                     <Clock className="h-6 w-6 mr-2 flex-shrink-0" />
-                    <span>12:30 PM for 5:00 PM</span>
+                    <span>12:30 PM to 5:00 PM</span>
                   </li>
                   <li className="flex items-start">
                     <MapPin className="h-6 w-6 mr-2 flex-shrink-0" />
